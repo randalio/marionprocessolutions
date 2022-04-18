@@ -1,0 +1,16 @@
+.flag span{
+  color: #e05929;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  letter-spacing: 0.075em;
+  border-top: 6px solid #e05929;
+}
+
+.headline h3{
+  font-weight: 700;
+}
+
+.headline a{
+  color: #000 !important;
+  text-decoration: none !important;
+}

@@ -1,0 +1,71 @@
+.resource-grid .tile{
+  border: 1px solid var(--pale-gray );
+}
+
+
+.resource-grid .post-label span{
+  background: var(--medium );
+  line-height: 1.8rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  color:#fff;
+}
+
+.resource-grid .post-image .col{
+  position: relative;
+}
+
+.resource-grid .post-image .col .play_dot{
+  position: absolute;
+  display: block;
+  background: #da3b33;
+  width: 0em;
+  height: 0em;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 4em;
+  text-align: center;
+  color:#fff;
+  border-radius: 50%;
+  transition: all 0.5s cubic-bezier(0.85, 0, 0.15, 2);
+  transition-delay: .25s;
+  pointer-events: none;
+}
+
+.resource-grid .post-image .col .play_dot .play_icon{
+  opacity: 0;
+  transition: all .5s ease;
+  transition-delay: 0.75s;
+  transform: rotate(-180deg);
+}
+
+.resource-grid .post-image .col .play_dot.animated{
+  width: 4em;
+  height: 4em;
+}
+
+.resource-grid .post-image .col .play_dot.animated .play_icon{
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.resource-grid .post-image .col .play_dot:hover{
+  transition: all 0.75s cubic-bezier(0.85, 0, 0.15, 2);
+}
+
+
+.resource-grid .post-title h6{
+  color: #75797d;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+}
+
+.resource-grid .post-summary p{
+  color: #75797d;
+}
+
+.resource-grid .post-link a{
+  text-transform: uppercase;
+}

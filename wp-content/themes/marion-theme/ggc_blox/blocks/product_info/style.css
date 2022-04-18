@@ -1,0 +1,34 @@
+.product-information{
+  background: #f4f4f4;
+}
+
+.product-information img{
+  mix-blend-mode: multiply;
+}
+
+.product-information .series span,
+.product-information .prod-type a {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+.product-information .industry a,
+.product-information .process a{
+  color: #545454 !important;
+}
+
+.product-information .industry a:hover,
+.product-information .process a:hover{
+  color: #e05929 !important;
+}
+
+
+.product-information .title h1 {
+  font-size: 2.25em;
+  line-height: 1em;
+  font-weight: 300;
+  color: #e05929 !important;
+  text-decoration: none;
+}

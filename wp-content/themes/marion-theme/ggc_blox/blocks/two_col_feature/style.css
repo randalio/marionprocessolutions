@@ -1,0 +1,208 @@
+.two-col-feature{
+  overflow: hidden;
+}
+
+.two-col-feature.dark{
+  background: #000;
+}
+
+.two-col-feature h1{
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color:
+}
+.two-col-feature h1 span{
+  display: block;
+}
+.two-col-feature .headline-light{
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #e05929;
+}
+.two-col-feature.light h2{
+  font-weight: 700;
+  color: #000 !important;
+}
+.two-col-feature.dark h2{
+  font-weight: 700;
+  color: #fff !important;
+}
+
+
+.two-col-feature.dark .line-text{
+  color: #fff;
+}
+
+.two-col-feature h3{
+  line-height: 1em;
+  font-size: 1.6em;
+}
+
+.two-col-feature a{
+  font-size: 1.25rem;
+  text-decoration: none !important;
+  font-weight: 700;
+  border-top: 4px solid #e05929;
+  transition: all 0.5s ease;
+}
+.two-col-feature.dark a:hover{
+  color: #fff !important;
+  border-top: 4px solid #fff;
+}
+
+.two-col-feature.light a:hover{
+  color: #545454 !important;
+  border-top: 4px solid #545454;
+}
+
+.two-col-feature.right img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.two-col-feature.left img{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.feature-image{
+  background-size: cover;
+}
+
+.two-col-feature.light.left .text-container{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+}
+
+.two-col-feature.light.right .text-container{
+  background: rgb(255,255,255);
+  background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+}
+
+.two-col-feature.dark.left .text-container{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+}
+
+.two-col-feature.dark.right .text-container{
+  background: rgb(255,255,255);
+  background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+}
+
+@keyframes imageInLeft {
+  from {
+    opacity: 1;
+    top: 50%;
+    transform: translate3d(-120px, -50%, 0);
+  }
+
+  to {
+    opacity: 1;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+.imageInLeft {
+  animation-name: imageInLeft;
+  /* animation-delay: .25s; */
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes imageInRight {
+  from {
+    opacity: 1;
+    top: 50%;
+    transform: translate3d(120px, -50%, 0);
+  }
+
+  to {
+    opacity: 1;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+.imageInRight {
+  animation-name: imageInRight;
+  /* animation-delay: .25s; */
+  animation-timing-function: ease-in-out;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+  .two-col-feature.light.left .text-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,.8) 66%, rgba(255,255,255,.3) 100%);
+  }
+
+  .two-col-feature.light.right .text-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,.8) 66%, rgba(255,255,255,0.3) 100%);
+  }
+
+  .two-col-feature.dark.left .text-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,.8) 66%, rgba(0,0,0,0.3) 100%);
+  }
+
+  .two-col-feature.dark.right .text-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,.8) 66%, rgba(0,0,0,0.3) 100%);
+  }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+  .two-col-feature.light.left .text-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,.8) 66%, rgba(255,255,255,.3) 100%);
+  }
+
+  .two-col-feature.light.right .text-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,.8) 66%, rgba(255,255,255,0.3) 100%);
+  }
+
+  .two-col-feature.dark.left .text-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,.8) 66%, rgba(0,0,0,0.3) 100%);
+  }
+
+  .two-col-feature.dark.right .text-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,.8) 66%, rgba(0,0,0,0.3) 100%);
+  }
+
+  @keyframes imageInRight {
+    from {
+      /* opacity: 0; */
+      transform: translate3d(0, 100px, 0);
+    }
+
+    to {
+      /* opacity: 1; */
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes imageInLeft {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100px, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+}

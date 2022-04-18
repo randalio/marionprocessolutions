@@ -1,0 +1,46 @@
+.call-to-action h2{
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+.call-to-action p{
+  font-size: 1.8em;
+  font-weight: 300;
+  line-height: 1.1em;
+}
+
+.call-to-action{
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.call-to-action .btn-orange{
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+
+@media only screen and min-width: 575px) {
+  .call-to-action .btn-orange{
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+}
+
+.call-to-action.light h2{
+  color: #fff;
+}
+
+.call-to-action.light p{
+  color: #fff;
+}
+
+.call-to-action.dark h2{
+  color: #000;
+}
+
+.call-to-action.dark p{
+  color: #000;
+}

@@ -1,0 +1,80 @@
+.image-gallery .item .image_wrap{
+  position: relative;
+  box-shadow: 0px 0px 10px #fff;
+  transition: all 0.75s ease;
+}
+
+.image-gallery .item .modal .image_wrap,
+.image-gallery .item .modal .image_wrap:hover{
+  box-shadow: 0px 0px 0px #000 !important;
+  background-color: #fff;
+}
+
+.image-gallery .item div[data-toggle="modal"] .image_wrap:hover{
+  /* box-shadow: 0px 0px 20px #ccc; */
+  cursor: pointer;
+}
+.image-gallery .item div[data-toggle="modal"] .image_wrap:hover .rule{
+background-color: #e05929;
+}
+
+.image-gallery .modal-content .image_wrap .caption-wrap{
+  position: absolute;
+  bottom: 0;
+background: rgba(255,255,255,0.5);
+}
+
+.image-gallery .image_wrap .caption{
+  bottom: 0px;
+  font-size: 0.9em;
+}
+
+.image-gallery .image_wrap .caption-head{
+  bottom: 0px;
+  font-size: 1.2em;
+  color: #e05929;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+  .image-gallery .item .caption{
+    margin-bottom: 0em;
+  }
+}
+
+.image-gallery .modal-body{
+  padding: 0;
+}
+
+.image-gallery .modal-content{
+  background-color: transparent !important;
+  border: 0px;
+}
+
+.image-gallery .modal-content .btn{
+  position:absolute;
+  border: 0px solid #e05929 !important;
+  background: #fff;
+  color: #e05929;
+  width: 64px;
+  height: 64px;
+  transform:translateX(100%);
+  top: 0;
+  right: 0;
+  transition:  all 0.5s ease;
+}
+.image-gallery .modal-content .btn:hover{
+  border: 0px solid #fff !important;
+  background: #e05929;
+  color: #fff;
+}
+
+
+.image-gallery .rule{
+  width: calc( 100% - 3em );
+  height: .33em !important;
+  background-color: #f1f2f3;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.4s ease;
+}

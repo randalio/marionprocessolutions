@@ -1,0 +1,11 @@
+.one-column-layout-wrapper{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+.edit-row{
+  position:absolute;
+  bottom:0;
+  right: 0;
+}

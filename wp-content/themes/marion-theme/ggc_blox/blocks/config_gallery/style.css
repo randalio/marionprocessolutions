@@ -1,0 +1,76 @@
+.config-gal, .config-gal-text{
+  background-color: #eeeeee;
+}
+/* .owl-carousel .col-owl{
+  max-width: 80%;
+} */
+
+.config-gal .item{
+  background-color: #fff;
+}
+
+.config-gal .owl-nav{
+  position: absolute;
+  bottom:50%;
+  left: 0;
+  width: 100%
+}
+
+.config-gal .owl-prev{
+  position: absolute !important;
+  left: 50px !important;
+  width: 100px !important;
+  height: 100px !important;
+  background: #fff !important;
+  border: 2px solid #e05929 !important;
+  color: #e05929 !important;
+  border-radius: 50% !important;
+  outline: none !important;
+  transform: translateY(-50%);
+  transition: all 0.5s ease;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 100 !important;
+}
+.config-gal .owl-next{
+  position: absolute !important;
+  right: 50px !important;
+  width: 100px !important;
+  height: 100px !important;
+  background: #fff !important;
+  border: 2px solid #e05929 !important;
+  color: #e05929 !important;
+  border-radius: 50% !important;
+  outline: none !important;
+  transform: translateY(-50%);
+  transition: all 0.5s ease;
+}
+
+.config-gal .owl-prev:hover,
+.config-gal .owl-next:hover{
+  background-color: #fff0eb !important;
+}
+
+.config-gal .owl-prev span,
+.config-gal .owl-next span{
+  font-size: 4em !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 100 !important;
+display: block;
+}
+
+.config-gal .owl-prev span{
+  transform: translate(-5%, -5%);
+}
+.config-gal .owl-next span{
+  transform: translate(5%, -5%);
+}
+
+.config-gal .industries a{
+  color: #545454 !important;
+}
+.config-gal .industries a:hover{
+  color: #e05929 !important;
+}
+.config-gal p{
+  color: #545454;
+}

@@ -1,0 +1,171 @@
+.video-block h2{
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+
+
+
+.video-block .player{
+  width: 100%;
+  padding-top: 56.25%;
+  height: 0px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.video-block .player i{
+  display: block;
+  position: absolute;
+  font-family: 'Font Awesome\ 5 Free' !important;
+  font-weight: 300;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  color:#fff;
+  text-align: center;
+  text-shadow: 0px 0px 40px #000;
+  /* pointer-events: none; */
+  z-index: 9999;
+  transition: all 0.5s ease;
+}
+
+.video-block .player i:hover{
+  color: #e05929;
+}
+
+.video-block .video{
+  overflow: hidden;
+  transition: all 0.5s ease;
+  background: #000;
+}
+
+.video-block iframe{
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.video-block video[poster]{
+  width: 100% !important;
+}
+
+.video-block img{
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  width: 100%;
+}
+
+.video-block img,
+.video-block i{
+  cursor: pointer;
+}
+
+
+.video-block .video-text{
+  background-color: #000;
+  border-right: 2em solid #fff;
+}
+
+@media (max-width: 1200px){
+  .video-block .video-text{
+    border-right: 0px solid #000;
+    border-top: 1em solid #fff;
+  }
+}
+
+.video-block h2,
+.video-block p,
+.video-block a{
+  color: #fff;
+}
+
+.video-block p,
+.video-block li {
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  font-size: 1em;
+}
+
+.video-block a.btn-text {
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 1.8em;
+  font-size: 1em;
+  text-decoration: none;
+  margin-top: 1.5em !important;
+  padding-bottom: 1em !important;
+  display: inline-block;
+}
+.video-block a.btn-text:hover {
+  color: #fff !important;
+}
+
+.video-block iframe,
+.video-block video{
+  width: 100%;
+}
+
+.video-block .videofile .play-button,
+.video-block .youtube .play-button{
+		margin: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%);
+    background-color: transparent;
+    z-index: 1;
+		transform: translate(-50%, -50%);
+    color: rgba(255,255,255,0.95);
+}
+
+.video-block .videofile .play-button i,
+.video-block .youtube .play-button i{
+  font-size: 5rem;
+	transition: all .25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: inline-block;
+  text-shadow: 0rem 0rem 5rem rgba(0,0,0,0.25);
+}
+
+.video-block .videofile .play-button:hover i,
+.video-block .youtube .play-button:hover i{
+	opacity: 1.0;
+	font-size: 7rem;
+}
+
+.video-block .videofile .play-button:hover i.bye,
+.video-block .youtube .play-button:hover i.bye{
+		transition: all 1s ease !important;
+}
+
+.video-block .videofile .play-button i.bye,
+.video-block .youtube .play-button i.bye{
+	transition: all 1s ease !important;
+  opacity: 0;
+}
+
+
+@media (max-width: 1024px){
+  .video-block img{
+    max-height: 460px;
+  }
+}
+
+@media (max-width: 756px){
+  .video-block img{
+    max-height: 260px;
+  }
+}

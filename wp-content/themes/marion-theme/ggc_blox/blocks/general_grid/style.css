@@ -1,0 +1,17 @@
+.general-grid.two .headline h5,
+.general-grid.two .headline a {
+  font-weight: 700;
+  color: #000;
+  text-decoration: none !important;
+}
+
+.general-grid.three .headline h5,
+.general-grid.three .headline a {
+  font-weight: 700;
+  color: #e05929;
+  text-decoration: none !important;
+}
+
+
+.general-grid p{
+}

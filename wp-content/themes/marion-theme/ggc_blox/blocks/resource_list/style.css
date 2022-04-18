@@ -1,0 +1,66 @@
+.resource-list .list-title h3{
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.resource-list h5{
+  font-weight: 600;
+}
+
+.resource-list .col a{
+  color: #000 !important;
+  text-decoration: none !important;
+  font-size: 1rem;
+}
+
+.resource-list .col{
+  position: relative;
+}
+
+.resource-list .col .play_dot{
+  position: absolute;
+  display: block;
+  background: #e05929;
+  width: 3em;
+  height: 3em;
+  top: 1.75em;
+  left: 1.5em;
+  transform: translate(-50%, -50%);
+  line-height: 3em;
+  text-align: center;
+  color:#fff;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.resource-list .col .play_dot .play_icon{
+  font-size: 1.5em;
+  text-indent: 1px;
+  opacity: 1;
+  /* transition: all .5s ease;
+  transition-delay: 1.25s;
+  transform: rotate(-180deg); */
+}
+
+.resource-list .col .play_dot.animated .play_icon{
+  transform: rotate(0deg);
+}
+
+.resource-list .video-list a{
+  padding-left: 4em;
+}
+
+.resource-list p{
+  margin: 0;
+  padding: 0;
+}
+
+.resource-list span.link{
+  color: #e05929;
+}
+
+.resource-list span.link:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,64 @@
+.custom-option-accordion .card{
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.custom-option-accordion .card-header{
+  font-size: 1.2rem;
+  border: none !important;
+  font-weight: 700;
+  line-height: 1.5rem;
+  outline: none !important;
+  background-color: #545454;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.custom-option-accordion .card-header:after{
+  content: '';
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('/wp-content/themes/marion-theme/images/minus.png');
+  background-size: 100%;
+  display: block;
+  position: absolute;
+  font-family: 'Font Awesome\ 5 Free' !important;
+  font-size: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0.5em;
+  color: #fff;
+  line-height: 100%;
+}
+
+.custom-option-accordion .card-header.collapsed{
+  background-color: #f4f4f4;
+  color: #545454;
+}
+
+.custom-option-accordion .card-header.collapsed:after{
+  background-image: url('/wp-content/themes/marion-theme/images/plus.png');
+}
+
+.custom-option-accordion .card-header.collapsed:hover{
+  background-color: #e4e4e4;
+}
+
+
+
+.custom-option-accordion h3{
+  font-weight: 700;
+  color: #000;
+}
+
+
+.custom-option-accordion .all_btn{
+  font-size: 1.25em;
+  margin-top: 1em;
+}
+
+.custom-option-accordion .custom-options-for h3 a{
+  color: #e05929;
+}

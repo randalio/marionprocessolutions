@@ -1,0 +1,22 @@
+.product-grid .summary{
+  bottom: 0px;
+  /* font-size: 0.9em; */
+}
+
+.product-grid h5.product-head,
+.product-grid a.product-head{
+  bottom: 0px;
+  font-size: 1.2rem;
+  color: #e05929;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.product-grid .rule{
+  width: calc( 100% - 3em );
+  height: .33em !important;
+  background-color: #f1f2f3;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.4s ease;
+
+}

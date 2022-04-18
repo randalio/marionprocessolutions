@@ -1,0 +1,64 @@
+.rep-locator .tile_wrap{
+  /* display: none; */
+}
+.rep-locator .tile_wrap:first-child{
+  display: block;
+}
+
+.rep-locator .inputs{
+  background-color: #f1f2f2;
+}
+
+.rep-locator .inputs label{
+  color: var(--arz_lime);
+  font-size: 1.1em;
+  font-weight: 700;
+  display: block;
+}
+
+.rep-locator .inputs input{
+  background: rgba(255,255,255,1);
+  color: #545454 !important;
+  border: 1px solid #e05929 !important;
+  border-radius: 1em;
+  padding: 1em;
+  outline: none !important;
+  width: 100%
+}
+
+
+.rep-locator .inputs .btn:after{
+  content: '\f002';
+  font-family: 'Font Awesome\ 5 Free' !important;
+  font-weight: 900;
+  font-size: 1rem;
+  position: absolute;
+  right: 1em;
+}
+
+.rep-locator .inputs .btn{
+  padding: 0.75em;
+}
+
+.rep-locator .inputs .btn:hover{
+  background: rgba(255,255,255,0.9);
+  color: #e05929 !important;
+  border: 2px solid #e05929 !important;
+}
+
+@media (max-width: 991px){
+  .rep-locator .inputs .btn{
+    border: 2px solid #fff;
+    border-radius: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: #e05929;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 2em;
+    text-decoration: none;
+    position: relative;
+    top: -5px;
+    width: 100%;
+  }
+}
